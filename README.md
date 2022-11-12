@@ -1,1 +1,21 @@
-# E-Commerce
+# nodejs-ecommerce-api
+Nodejs eCommerce APIs that allows API consumers to interact with the application, behind the scene it uses Nodejs, Express and MongoDB.
+
+## Dependecies
+[NodeJs](https://nodejs.org/en/) - A JavaScript runtime environment\
+[Express](https://expressjs.com/) - A NodeJs framework\
+[MongoDB](https://www.mongodb.com/) - A NoSQL database
+
+## Setup and run
+to setup this project, run the following commands on your terminal
+```bash
+1. to clone the project `git clone https://github.com/mazenolama/ecommerce.git`
+2. navigate to the project directory `cd ecommerce`
+3. install neccesary packages, modules `npm install`
+4. to run the project `npm start`
+5. using POSTMAN you can use this default url of `http://localhost:5000`
+```
+I recommend that you use [POSTMAN](https://www.postman.com/) for testing this ecommerce api or you can hook it up to your front-end application like [Angular](https://angular.io/).
+
+## Author
+[Mazen Olama]
