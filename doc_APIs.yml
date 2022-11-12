@@ -1,0 +1,40 @@
+Documentation Of APIs Records System
+
+Base URL : https://ecommerce.herokuapp.com/ 
+
+End Points :
+
+1- /login
+  request: { email: "email", password: "pass"}
+  response: { result : "success", token : "rysfsegu#%grgr$$" }
+  200 OK status code
+  response: { result : "failed"}
+  401 - Unauthorized status code
+#########################################
+
+2- /check-email
+  request: { email: "email"}
+  response: { result : "success"}
+  200 OK status code
+  response: { result : "failed"}
+  404 - Not Found status code
+#########################################
+
+3- /otp
+  request: { otp: "otp"}
+  response: { result : "success", token : "%#23awuytfafawaf"}
+  200 - OK status code
+  response: { result : "failed"}
+  403 - Forbidden status code
+#########################################
+
+4- /reset-password
+  request: { email: "email",password: "new-pass"}
+  response: { result : "success"}
+  200 - OK status code
+  response: {result : "failed"}
+  500 - Internal Server Error status code
+  If the server can not process this request.
+#########################################
+
+IMPORTANT NOTE: ALL REQUESTS SHOULD BE THROUGH THE BODY REQUEST
